@@ -7,7 +7,6 @@ public class HelloWorldTest {
 
     @Test
     public void testGetGreeting() {
-        Main main = new Main();  // Use the correct class name: "Main"
-        assertEquals("Hello, World!", main.getGreeting());
+        assertEquals("Hello, World!", HelloWorld.getGreeting()); // ✅ static call
     }
 }
