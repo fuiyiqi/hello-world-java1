@@ -11,6 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Build with Gradle
+        run: gradle build --stacktrace --info
+        
       - name: Checkout code
         uses: actions/checkout@v4
 
