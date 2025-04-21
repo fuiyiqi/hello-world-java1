@@ -43,4 +43,4 @@ pipeline {
     }
 }
 
-}
+// This Jenkinsfile is a simple pipeline that checks out a Java project from GitHub, builds it using Gradle, runs tests, and deploys the application.
